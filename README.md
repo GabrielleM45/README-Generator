@@ -14,7 +14,7 @@
 
 
 
-  ![How to start the application](.assets/smallezgif.com-resize.gif)
+  ![How to start the application](assets/smallezgif.com-resize.gif)
 
 
 
