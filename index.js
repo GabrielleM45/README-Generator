@@ -9,6 +9,12 @@ function promptUser() {
     return inquirer
         .prompt([{
                 type: "input",
+                message: "What is your First and Last Name?",
+                name: "name"
+            },
+
+            {
+                type: "input",
                 message: "What is the title of your Project?",
                 name: "title"
             },
@@ -21,33 +27,34 @@ function promptUser() {
             {
                 type: "input",
                 message: "How is this Project to be installed?",
-                name: "Installation"
+                name: "installation"
             },
             {
                 type: "input",
                 message: "How is this Project to be used?",
-                name: "Usage"
+                name: "usage"
             },
             {
                 type: "list",
                 message: "Please select a license.",
                 name: "license",
                 choices: [
-                    "Apache 2.0",
-                    "MIT",
-                    "GNU GPLv3",
-                    "OpenBSD",
+                    "apache-2.0",
+                    "mit",
+                    "gpl-3.0",
+                    "mpl-2.0",
+                    "isc",
                     "None"
                 ]
             },
             {
                 type: "input",
-                message: "How can individuals contribute to your Project",
+                message: "How can individuals contribute to your Project?",
                 name: "contributing"
             },
             {
                 type: "input",
-                message: "Please enter any test instructions for this Project",
+                message: "Please enter any test instructions for this Project.",
                 name: "tests"
             },
             {
@@ -74,7 +81,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 
 const init = async() => {
-    console.log("Hi");
+    console.log("Hi there, let's get started...");
     try {
         const answers = await promptUser();
 
