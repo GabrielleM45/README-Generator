@@ -1,64 +1,89 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
     return `
-    ![](https://img.shields.io/badge/License-${answers.license}-lightblue.svg)
+    ![](https://img.shields.io/badge/License-${answers.license}-lightblue)
+
 
 
   # ${answers.title}
 
 
-    # Description
+  ## Description\
+
+ ${answers.description}\
 
 
-    ${answers.description}\
-
-  # DEMO\\
+  **DEMO**\
 
 
-  ## Table of Contents\\
+  ## Table of Contents\
 
-  * [Description](**Description)\\
-  * [Installation](**Installation)\\
-  * [Usage](**Usage)\\
-  * [Contributing](**Contributing)\\
-  * [Tests](**Tests)\\
-  * [Questions](**Questions)\\
-  * [Author](**Author)\\
+  * [Description](**Description)\
+
+  * [Installation](**Installation)\
+
+  * [Usage](**Usage)\
+
+  * [Contributing](**Contributing)\
+
+  * [Tests](**Tests)\
+
+  * [Questions](**Questions)\
+
+  * [Author](**Author)\
+
   * [License](**License)\
 
 
 
-  ## Installation\\
-  ${answers.installation}\\\
+
+  ## Installation\
+
+  ${answers.installation}\
 
 
 
-  ## Usage\\
+  ## Usage\
+
   ${answers.usage}\
 
 
 
-  ## Contributing\\
+  ## Contributing\
+
   ${answers.contributing}\
 
 
-  ## Tests\\
-  ${answers.tests}\\
+
+  ## Tests\
+
+  ${answers.tests}\
 
 
 
-  ## Questions\\
-  Please send any questions to the following email.\\
-  Email: ${answers.questions}\\
+  ## Questions\
 
-
-  ## Author:\\
-    ${answers.name}\\
-  ![](http://i.imgur.com/0o48UoR.png) "Github:" <https://github.com/${answers.github}>\\
+  Please send any questions or comments to the author listed below.\
 
 
 
-  ## License\\
+
+  ## Author:\
+
+  ${answers.name}\
+
+
+  ![](http://i.imgur.com/VlgBKQ9.png)Email: ${answers.email}\
+
+
+
+  ![](http://i.imgur.com/9I6NRUm.png)Github: <https://github.com/${answers.github}>\
+
+
+
+
+  ## License\
+
   *This application is covered under the following license:*\\
   [${answers.license}](https://choosealicense.com/licenses/${answers.license})
 
