@@ -1,7 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
     return `
-    ![](https://img.shields.io/badge/License-${answers.license}-lightblue)
+    ![](https://img.shields.io/badge/License-${answers.license})-lightblue)
 
 
 
@@ -13,7 +13,15 @@ function generateMarkdown(answers) {
  ${answers.description}\
 
 
-  **DEMO**\
+  **Demo**\
+
+  ![](./assets/Readmestart.gif)\
+
+
+
+  [*Video of application in action*](https://drive.google.com/file/d/15_vrtqP_z9FuCd5DHMM7WNty029SOLcC/view)\
+
+
 
 
   ## Table of Contents\

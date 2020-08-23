@@ -39,9 +39,9 @@ function promptUser() {
                 message: "Please select a license.",
                 name: "license",
                 choices: [
-                    "apache-2.0",
                     "mit",
                     "gpl-3.0",
+                    "apache-2.0",
                     "mpl-2.0",
                     "isc",
                     "None"

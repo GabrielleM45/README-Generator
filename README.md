@@ -1,13 +1,13 @@
 
-    ![](https://img.shields.io/badge/License-mit-lightblue)
+    ![](https://img.shields.io/badge/License-mit)-lightblue)
 
 
 
-  # lsdfl we
+  # CLI based README Generator
 
 
   ## Description
- lsdf sef 
+ This application will create a README.md file that will include sections for Title, Description, Installation, Usage, Tests, Author, Licensing, How to Contribute, and Questions. It will also include a Table of Contents and contact information.
 
   **DEMO**
 
@@ -24,19 +24,19 @@
 
 
   ## Installation
-  \sdfl lsdf 
+  This application is installed via node.js with npm dependency.
 
 
   ## Usage
-  sdlf kwer-0pir234 
+  Once you've forked the repository and cloned into your personal directory, you'll install the necessary dependencies and run with node.js. This application will then prompt you through a series of questions to complete the README file.
 
 
   ## Contributing
-  lsadf lsadf 
+  If you'd like to expand upon this application, please fork the repository and code away. You may also reach out to me directly if you wish to collaborate.
 
 
   ## Tests
-  asldf lsdf
+  To test the code, you can run via VScode or any other coding platform.
 
 
   ## Questions
@@ -45,12 +45,12 @@
 
 
   ## Author:
-  lsdlf lsdlf we
+  Gabrielle Maxey
 
-  ![](http://i.imgur.com/VlgBKQ9.png)Email: sdksd@kdki.com
+  ![](http://i.imgur.com/VlgBKQ9.png)Email: gmaxeyg@gmail.com
 
 
-  ![](http://i.imgur.com/9I6NRUm.png)Github: <https://github.com/asdfl>
+  ![](http://i.imgur.com/9I6NRUm.png)Github: <https://github.com/GabrielleM45>
 
 
 
