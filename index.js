@@ -40,9 +40,9 @@ function promptUser() {
                 name: "license",
                 choices: [
                     "mit",
-                    "gpl-3.0",
-                    "apache-2.0",
-                    "mpl-2.0",
+                    "gpl",
+                    "apache",
+                    "mozilla",
                     "isc",
                     "None"
                 ]

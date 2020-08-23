@@ -1,5 +1,6 @@
 
-    ![](https://img.shields.io/badge/License-mit)-lightblue)
+
+  ![](https://img.shields.io/badge/License-mit-lightblue)
 
 
 
@@ -9,17 +10,33 @@
   ## Description
  This application will create a README.md file that will include sections for Title, Description, Installation, Usage, Tests, Author, Licensing, How to Contribute, and Questions. It will also include a Table of Contents and contact information.
 
-  **DEMO**
+
+
+
+
+  ![How to start the application](.assets/smallezgif.com-resize.gif)
+
+
+
+
+
+[See the full video of application in use](https://drive.google.com/file/d/15_vrtqP_z9FuCd5DHMM7WNty029SOLcC/view)
+
+
+
+
+
+
 
   ## Table of Contents
-  * [Description](**Description)
-  * [Installation](**Installation)
-  * [Usage](**Usage)
-  * [Contributing](**Contributing)
-  * [Tests](**Tests)
-  * [Questions](**Questions)
-  * [Author](**Author)
-  * [License](**License)
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
+  * [Author](#Author)
+  * [License](#License)
 
 
 
@@ -55,6 +72,6 @@
 
 
   ## License
-  *This application is covered under the following license:*\
-  [mit](https://choosealicense.com/licenses/mit)
+  *This application is Licensed under the following license:*\
+  **[mit](https://choosealicense.com/licenses/mit/)**
 

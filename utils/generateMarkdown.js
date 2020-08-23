@@ -1,7 +1,8 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
     return `
-    ![](https://img.shields.io/badge/License-${answers.license})-lightblue)
+
+  ![](https://img.shields.io/badge/License-${answers.license}-lightblue)
 
 
 
@@ -13,34 +14,41 @@ function generateMarkdown(answers) {
  ${answers.description}\
 
 
-  **Demo**\
-
-  ![](./assets/Readmestart.gif)\
 
 
 
-  [*Video of application in action*](https://drive.google.com/file/d/15_vrtqP_z9FuCd5DHMM7WNty029SOLcC/view)\
+
+  ![How to start the application](.assets/smallezgif.com-resize.gif)
+
+
+
+
+
+[See the full video of application in use](https://drive.google.com/file/d/15_vrtqP_z9FuCd5DHMM7WNty029SOLcC/view)
+
+
+
 
 
 
 
   ## Table of Contents\
 
-  * [Description](**Description)\
+  * [Description](#Description)\
 
-  * [Installation](**Installation)\
+  * [Installation](#Installation)\
 
-  * [Usage](**Usage)\
+  * [Usage](#Usage)\
 
-  * [Contributing](**Contributing)\
+  * [Contributing](#Contributing)\
 
-  * [Tests](**Tests)\
+  * [Tests](#Tests)\
 
-  * [Questions](**Questions)\
+  * [Questions](#Questions)\
 
-  * [Author](**Author)\
+  * [Author](#Author)\
 
-  * [License](**License)\
+  * [License](#License)\
 
 
 
@@ -92,8 +100,8 @@ function generateMarkdown(answers) {
 
   ## License\
 
-  *This application is covered under the following license:*\\
-  [${answers.license}](https://choosealicense.com/licenses/${answers.license})
+  *This application is Licensed under the following license:*\\
+  **[${answers.license}](https://choosealicense.com/licenses/${answers.license}/)**
 
 `;
 }
